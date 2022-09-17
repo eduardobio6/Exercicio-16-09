@@ -1,8 +1,11 @@
 <div class="card" style="width: 18rem;">
   <div class="card-body">
     <h5 class="card-title">Calculadora de juros Compostos:</h5>
-    <input [(ngModel)] = 'p'> *
-    <input [(ngModel)] = 'i'> ^
-    <input [(ngModel)] = 't'> = {{getJurosComposto()}}
+    <p>Capital:</p>
+    <input [(ngModel)]="p" /> *
+    <p>Taxa de Juros:</p>
+    <input [(ngModel)]="i" /> ^
+    <p>Tempo em Meses:</p>
+    <input [(ngModel)]="t" /> = {{ getJurosComposto() }}
   </div>
 </div>

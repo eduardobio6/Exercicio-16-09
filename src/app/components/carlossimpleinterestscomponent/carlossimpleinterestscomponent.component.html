@@ -1,8 +1,11 @@
 <div class="card" style="width: 18rem;">
   <div class="card-body">
     <h5 class="card-title">Calculadora de juros Simples:</h5>
-    <input [(ngModel)]="capital" /> * <input [(ngModel)]="taxa" /> *
-    <input [(ngModel)]="tempo" />
-    = {{ getJurosSimples() }}
+    <p>Capital:</p>
+    <input [(ngModel)]="capital" /> *
+    <p>Taxa de Juros:</p>
+    <input [(ngModel)]="taxa" /> *
+    <p>Tempo Em Meses:</p>
+    <input [(ngModel)]="tempo" /> = {{ getJurosSimples() }}
   </div>
 </div>
