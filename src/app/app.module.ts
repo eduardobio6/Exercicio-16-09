@@ -6,10 +6,17 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { CarlosheadercomponentComponent } from './components/carlosheadercomponent/carlosheadercomponent.component';
 import { CarlostimercomponentComponent } from './components/carlostimercomponent/carlostimercomponent.component';
+import { CarlossimpleinterestscomponentComponent } from './components/carlossimpleinterestscomponent/carlossimpleinterestscomponent.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
-  declarations: [AppComponent, HelloComponent, CarlosheadercomponentComponent, CarlostimercomponentComponent],
+  declarations: [
+    AppComponent,
+    HelloComponent,
+    CarlosheadercomponentComponent,
+    CarlostimercomponentComponent,
+    CarlossimpleinterestscomponentComponent,
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
