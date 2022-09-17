@@ -8,6 +8,7 @@ import { CarlosheadercomponentComponent } from './components/carlosheadercompone
 import { CarlostimercomponentComponent } from './components/carlostimercomponent/carlostimercomponent.component';
 import { CarlossimpleinterestscomponentComponent } from './components/carlossimpleinterestscomponent/carlossimpleinterestscomponent.component';
 import { CarloscompoundinterestscomponentComponent } from './components/carloscompoundinterestscomponent/carloscompoundinterestscomponent.component';
+import { CarlosrandomnumberscomponentComponent } from './components/carlosrandomnumberscomponent/carlosrandomnumberscomponent.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -18,6 +19,7 @@ import { CarloscompoundinterestscomponentComponent } from './components/carlosco
     CarlostimercomponentComponent,
     CarlossimpleinterestscomponentComponent,
     CarloscompoundinterestscomponentComponent,
+    CarlosrandomnumberscomponentComponent,
   ],
   bootstrap: [AppComponent],
 })
