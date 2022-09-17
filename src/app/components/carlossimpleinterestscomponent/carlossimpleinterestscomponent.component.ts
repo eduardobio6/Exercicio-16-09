@@ -1,15 +1,20 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-carlossimpleinterestscomponent',
   templateUrl: './carlossimpleinterestscomponent.component.html',
-  styleUrls: ['./carlossimpleinterestscomponent.component.css']
+  styleUrls: ['./carlossimpleinterestscomponent.component.css'],
 })
 export class CarlossimpleinterestscomponentComponent implements OnInit {
+  @Input() capital: string;
+  @Input() taxa: string;
+  @Input() tempo: string;
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit() {
+  ngOnInit() {}
+
+  getJurosSimples() {
+    return Number(this.capital) * Number(this.taxa) * Number(this.tempo);
   }
-
 }
