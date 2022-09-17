@@ -7,6 +7,7 @@ import { HelloComponent } from './hello.component';
 import { CarlosheadercomponentComponent } from './components/carlosheadercomponent/carlosheadercomponent.component';
 import { CarlostimercomponentComponent } from './components/carlostimercomponent/carlostimercomponent.component';
 import { CarlossimpleinterestscomponentComponent } from './components/carlossimpleinterestscomponent/carlossimpleinterestscomponent.component';
+import { CarloscompoundinterestscomponentComponent } from './components/carloscompoundinterestscomponent/carloscompoundinterestscomponent.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -16,6 +17,7 @@ import { CarlossimpleinterestscomponentComponent } from './components/carlossimp
     CarlosheadercomponentComponent,
     CarlostimercomponentComponent,
     CarlossimpleinterestscomponentComponent,
+    CarloscompoundinterestscomponentComponent,
   ],
   bootstrap: [AppComponent],
 })
